@@ -2,6 +2,10 @@
     font-family: myFont;
     src: url('../fonts/PPPangaia-Medium-BF654c530cc86d5.otf');
 }
+section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
 /* NAVBAR   */
@@ -98,6 +102,7 @@
     background-size: cover;
     height: 700px;
     padding: 24%;
+    /* margin-bottom: 30px; */
 }
 .hero-banner .row{
     display: flex;
@@ -134,11 +139,14 @@
 /* ////////////////////////////////////////////////////// */
 /* Slideshow container */
 .slideshow-container {
-    padding: 20px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
     /* max-width: 1000px; */
+    margin-left: auto;
+    margin-right: auto;
     max-width: fit-content;
     position: relative;
-    margin: auto;
+   
   }
   .slideshow-container img{
     height: 500px;
@@ -211,3 +219,34 @@
 }
 /* /////////////////////////////////////////////// */
 /* INTRO SECTION  */
+
+
+
+/* DOCTOR INTRO  */
+/* ////////////////////////////////////////////////// */
+.doctor-intro{
+    display: flex;
+    justify-content: center;
+}
+.doctor-intro img{
+    width: 100%;
+}
+.doctor-description{
+    font-family: myFont;
+}
+.doctor-description h4{
+    color: #A46403;
+}
+.doctor-description h3{
+    color: rgb(49, 49, 223);
+}
+.doctor-description .btn{
+    border-color: #A46403;
+    color: #A46403;
+}
+.doctor-description .btn:hover{
+  color: white;
+  background-color: #A46403;
+}
+/* ////////////////////////////////////////////////// */
+/* DOCTOR INTRO  */
