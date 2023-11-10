@@ -69,8 +69,21 @@
     color: #A46403;
   }
   .dropdown-menu{
-    background-color: #454545;
+    background-color: #070707d1;
+    opacity: 0.9;
+    display: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 1;
   }
+  .nav-item:hover .dropdown-menu{
+    display: block;
+  }
+.dropdown-item:focus,
+.dropdown-item:hover{
+    background-color: black;
+    color: white;
+}
   
 /* NAVBAR   */
 
@@ -121,7 +134,9 @@
 /* ////////////////////////////////////////////////////// */
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    padding: 20px;
+    /* max-width: 1000px; */
+    max-width: fit-content;
     position: relative;
     margin: auto;
   }
@@ -132,11 +147,12 @@
   
   /* Caption text */
   .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    color: black;
+    font-size: 30px;
+    font-family: myFont;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 76px;
     width: 100%;
     text-align: center;
   }
@@ -182,3 +198,16 @@
   }
 /* ////////////////////////////////////////////////////// */
 /* SLIDER SECTION  */
+
+
+/* INTRO SECTION  */
+/* /////////////////////////////////////////////// */
+.intro-row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: myFont;
+    margin-top: 20px;
+}
+/* /////////////////////////////////////////////// */
+/* INTRO SECTION  */

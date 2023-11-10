@@ -37,7 +37,7 @@
 
        <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href=""><span>Contact Us</span></a>
+            <a class="nav-link" href=""><span class="nav-link-text">Contact Us</span></a>
         </li>
        </ul>
      </div>

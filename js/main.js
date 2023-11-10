@@ -2,6 +2,8 @@
 window.addEventListener('scroll', function(){
     const navbar = this.document.getElementById('NavBar')
     const ulElements = this.document.querySelectorAll('.nav-link-text')
+    const navbarDropDownMenu = this.document.querySelector('.dropdown-menu')
+    console.log(navbarDropDownMenu)
     ulElements.forEach((element, index) => {
         // console.log(element)
         // console.log(`Text content of element ${index}: ${element.textContent}`);
@@ -9,13 +11,15 @@ window.addEventListener('scroll', function(){
         if(this.window.scrollY > 20){
             navbar.style.backgroundColor = 'black';
             navbar.style.transition = '1.5s'
-            navbar.style.opacity = '0.6';
-            element.style.color = 'white'
+            navbar.style.opacity = '0.9';
+            element.style.color = 'white';
+            // navbarDropDownMenu.style.backgroundColor = 'black'
         }
         else{
             navbar.style.backgroundColor = 'transparent'
             navbar.style.opacity = '1';
-            element.style.color = '#A46403'     
+            element.style.color = '#A46403';
+            // navbarDropDownMenu.style.backgroundColor = 'black'  
         }
     });    
 })
@@ -26,7 +30,7 @@ window.addEventListener('scroll', function(){
 
 // SLIDER SECTION 
 let slideIndex = 0;
-// showSlides();
+showSlides();
 
 function showSlides() {
   let i;
