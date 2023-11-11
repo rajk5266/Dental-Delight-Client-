@@ -19,10 +19,10 @@
                 </div>
                 <div class="col col-12">
                     <ul>
-                        <li>some points to put here</li>
-                        <li>some points to put here</li>
-                        <li>some points to put here</li>
-                        <li>some points to put here</li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i>some points to put here</li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i>some points to put here</li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i>some points to put here</li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i>some points to put here</li>
                     </ul>
                 </div>
                 <div class="col col-12">

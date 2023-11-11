@@ -3,8 +3,15 @@
     src: url('../fonts/PPPangaia-Medium-BF654c530cc86d5.otf');
 }
 section{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+h1, h2, h3, h4, p{
+    font-family: myFont;
+}
+i{
+    margin-right: 10px;
+    color: #c0862f;
 }
 
 
@@ -34,6 +41,14 @@ section{
     justify-content: space-around;
     margin-left: 28px;
     /* font-fam; */
+}
+/* #navbar-main-elements{
+    margin-left: 257px;
+} */
+@media (min-width: 992px){
+    #navbar-main-elements{
+        margin-left: 217px;
+    }
 }
 
 .navbar-brand{
@@ -97,34 +112,53 @@ section{
 
 /* //////////////////////////////////////////////////////////////////////// */
 /* HERO BANNER  */
+.hero-section{
+    margin-top: 0;
+}
 .hero-banner{
     background: url('../images/hero-banner.jpg');
     background-size: cover;
     height: 700px;
     padding: 24%;
+    /* width: 101%; */
     /* margin-bottom: 30px; */
 }
+
 .hero-banner .row{
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: myFont;
     font-style: italic;
-    color: wheat;
+    color: black;
 }
+.hero-banner .title-row{
+    background-color: #b18646;
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 2px;
+
+}
+
 .hero-banner .btn-outline{
     /* border-color: #A46403; */
     /* color: #A46403; */
-    background-color: #ca7a02;
+    background-color: #c99444f5;
     color: black;
 }
 
 .hero-banner .btn-outline:hover{
-    background-color: #e9971b;
+    background-color: #A46403;
     color: black;
 }
 .hero-banner-contact-section{
     margin-top: 115px;
+}
+.hero-banner-appointment a{
+    /* font-weight: 800; */
+}
+.hero-banner-calling i{
+    color: black;
 }
 @media (max-width: 768px){
     .hero-banner-calling{
@@ -230,23 +264,199 @@ section{
 }
 .doctor-intro img{
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.65) 1.95px 1.95px 2.6px;
 }
 .doctor-description{
     font-family: myFont;
+    padding: 20px;
+}
+.doctor-description li{
+    list-style: none;
+
 }
 .doctor-description h4{
     color: #A46403;
 }
 .doctor-description h3{
-    color: rgb(49, 49, 223);
+    color: rgb(47, 47, 47);
+    font-weight: 800;
 }
+.doctor-description p, .doctor-description li{
+    font-size: 18px;
+}
+/* .doctor-description i{
+    margin-right: 10px;
+    color: #c0862f;
+} */
 .doctor-description .btn{
     border-color: #A46403;
     color: #A46403;
 }
 .doctor-description .btn:hover{
   color: white;
-  background-color: #A46403;
+  background-color: #c0862f;
 }
 /* ////////////////////////////////////////////////// */
 /* DOCTOR INTRO  */
+
+
+/* SERVICES  */
+.our-services{
+    text-align: center;
+}
+.services-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.services-row .col{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.service-card{
+/* border: 1px solid rgb(148, 147, 147); */
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+transition: 0.5s ease;
+}
+.service-card:hover{
+    transform: scale(1.05);
+}
+.service-card .card-img-top{
+    padding: 10px;
+}
+.service-card .card-body{
+    padding: 10px;
+}
+.single-service-parent-row .col{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  background-color: #e8e5e5;
+}
+
+.single-service-row{
+    display: flex;
+    justify-content: center;
+}
+.single-service-row img{
+    width: 200px;
+    height: auto;
+}
+.single-service-image{
+    text-align: center;
+}
+/* SERVICES  */
+
+
+
+
+/* WHY CHOOSE US  */
+/* //////////////////////////////////////////////// */
+.why-choose-us-description h2{
+    text-align: center;
+}
+.why-choose-us-row{
+    display: flex;
+    justify-content: space-around;
+}
+.why-choose-us-content ul{
+    margin-top: 50px;
+}
+.why-choose-us-content ul li{
+  list-style: none;
+  font-family: myFont;
+}
+.why-choose-us-content li{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 524px){
+    .why-choose-us-content li{
+        font-size: 15px;
+    }
+}
+.why-choose-us-content i{
+    margin-right: 20px;
+}
+/* //////////////////////////////////////////////// */
+/* WHY CHOOSE US  */
+
+
+/* ACHIEVEMENTS  */
+/* /////////////////////////////////////////////////// */
+.achievement-parent-row{
+    /* background: url('../images/logo1.avif');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(185, 182, 182);
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+}
+.single-achievement-section{
+    /* padding-top: 50px; */
+}
+/* /////////////////////////////////////////////////// */
+/* ACHIEVEMENTS  */
+
+
+/* FOOTER  */
+/* ////////////////////////////////////////////// */
+.footer-row {
+    font-family: myFont;
+    background-color: #c8a87ce3;
+    padding: 30px;
+}
+.footer-row img{
+    width: 150px;
+    height: auto;
+}
+
+.clinic-info .row,
+.timings .row,
+.quick-links .row,
+.social-media-links .row{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.quick-links li{
+    list-style: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.quick-links li a{
+    text-decoration: none;
+    color: #7e4e05;
+    font-size: 18px;
+}
+.quick-links ul{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.footer-section{
+    margin-bottom: 0;
+}
+
+.footer-row a{
+    background: 
+      linear-gradient(to right, rgb(22, 22, 22), rgb(20, 21, 21)),
+      linear-gradient(to right, rgb(250, 201, 128), rgb(249, 167, 45),rgb(105, 63, 1));
+    background-size: 0 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  .footer-row a:hover,
+  .footer-row a:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+  }  
+
+  .footer-base{
+    
+  }
+/* ////////////////////////////////////////////// */
+/* FOOTER  */
+
+ 
