@@ -6,9 +6,13 @@
     <title>Dental Delight</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
 
@@ -62,6 +66,11 @@
 <!-- ACHIEVEMENTS  -->
 <?php include "achievements.php"; ?>
 <!-- ACHIEVEMENTS  -->
+
+
+<!-- TESTIMONIALS  -->
+<?php include "testimonials.php"; ?>
+<!-- TESTIMONIALS  -->
 
 
 

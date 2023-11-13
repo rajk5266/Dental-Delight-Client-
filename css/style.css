@@ -336,8 +336,8 @@ transition: 0.5s ease;
     padding: 10px;
 }
 .single-service-parent-row .col{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-top: 15px; */
+    margin-bottom: 10px;
     padding: 30px;
   /* background-color: #e8e5e5; */
 }
@@ -402,14 +402,76 @@ transition: 0.5s ease;
     background-size: cover; */
     background-color: rgb(185, 182, 182);
     opacity: 0.9;
-    color: white;
+    color: white !important;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
+.achievement-parent-row h2{
+    color: white;
+}
+
+/* .achievement-parent-row .col */
 .single-achievement-section{
-    /* padding-top: 50px; */
+    margin-top: 20px;
 }
 /* /////////////////////////////////////////////////// */
 /* ACHIEVEMENTS  */
+
+
+/* TESTIMONIALS  */
+/* /////////////////////////////////////////////////// */
+.testimonial p {
+    color: #fff;
+    line-height: 19px;
+    font-size: 13px;
+    margin-top: 16px;
+  }
+  
+  .testimonial h5 {
+    color: #A46403;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .testimonial-icon{
+    color: #A46403;
+  }
+  .testimonial-col{
+    margin-bottom: 10px;
+  }
+  .testimonial-col p{
+    font-size: 18px;
+    padding: 5px;
+    font-family: cursive;
+  }
+  .testimonial-col i{
+    color: #A46403;
+  }
+  .testimonial{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+
+/* /////////////////////////////////////////////////// */
+/* TESTIMONIALS  */
+
+
+/* CONTACT FORM  */
+/* /////////////////////////////////////////////////////// */
+.bg-image {
+    background-image: url('../images/contactus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .contact-row{
+    text-align: center;
+    margin-top: 150px;
+  }
+
+/* /////////////////////////////////////////////////////// */
+/* CONTACT FORM  */
 
 
 /* FOOTER  */
