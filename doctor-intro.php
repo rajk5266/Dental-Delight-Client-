@@ -1,6 +1,6 @@
 <section>
     <div class="row doctor-intro">
-        <div class="col col-10 col-lg-4">
+        <div class="col col-10 col-lg-4 animate">
             <img src="images/doctor-image.jpg" alt="">
         </div>
         <div class="col col-10 col-lg-6 doctor-description">

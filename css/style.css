@@ -9,6 +9,9 @@ section{
 h1, h2, h3, h4, p{
     font-family: myFont;
 }
+h1, h2, h3{
+    color: #A46403;
+}
 i{
     margin-right: 10px;
     color: #c0862f;
@@ -102,6 +105,7 @@ i{
 .dropdown-item:hover{
     background-color: black;
     color: white;
+    opacity: 1;
 }
   
 /* NAVBAR   */
@@ -133,11 +137,16 @@ i{
     color: black;
 }
 .hero-banner .title-row{
-    background-color: #b18646;
-    opacity: 0.9;
+    background-color: #b18646b8;
+    /* opacity: 0.9; */
     padding: 15px;
-    border-radius: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
+}
+.hero-banner .title-row h1{
+    letter-spacing: 1px;
+    color: black;
 }
 
 .hero-banner .btn-outline{
@@ -148,7 +157,7 @@ i{
 }
 
 .hero-banner .btn-outline:hover{
-    background-color: #A46403;
+    background-color: #cea567f5;
     color: black;
 }
 .hero-banner-contact-section{
@@ -275,10 +284,10 @@ i{
 
 }
 .doctor-description h4{
-    color: #A46403;
+    /* color: #A46403; */
 }
 .doctor-description h3{
-    color: rgb(47, 47, 47);
+    
     font-weight: 800;
 }
 .doctor-description p, .doctor-description li{
@@ -327,14 +336,18 @@ transition: 0.5s ease;
     padding: 10px;
 }
 .single-service-parent-row .col{
-    margin-top: 20px;
-    margin-bottom: 20px;
-  background-color: #e8e5e5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+  /* background-color: #e8e5e5; */
 }
 
 .single-service-row{
     display: flex;
     justify-content: center;
+}
+.single-service-row p{
+    font-size: 18px;
 }
 .single-service-row img{
     width: 200px;
@@ -351,7 +364,7 @@ transition: 0.5s ease;
 /* WHY CHOOSE US  */
 /* //////////////////////////////////////////////// */
 .why-choose-us-description h2{
-    text-align: center;
+    /* text-align: center; */
 }
 .why-choose-us-row{
     display: flex;
@@ -460,3 +473,13 @@ transition: 0.5s ease;
 /* FOOTER  */
 
  
+
+/* CUSTOM HORIZONTAL DIVIDER  */
+.custom-hr{
+    display: flex;
+    justify-content: center;
+}
+.custom-hr .col{
+    border: 1px solid rgb(243, 179, 95);
+}
+/* CUSTOM HORIZONTAL DIVIDER  */

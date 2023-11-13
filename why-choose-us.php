@@ -1,6 +1,6 @@
 <section>
     <div class="row why-choose-us-row">
-        <div class="col col-10 col-lg-5">
+        <div class="col col-10 col-lg-5 animate">
             <img src="images/why-choose-us-dentist.avif" alt="" style="width: 100%; ">
         </div>
         <div class="col col-10 col-lg-5 why-choose-us-description">

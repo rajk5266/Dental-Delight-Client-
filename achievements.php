@@ -1,7 +1,7 @@
 <section>
     <div class="row achievement-parent-row">
         <div class="col col-12 col-md-5 col-lg-3">
-            <div class="row single-achievement-section">
+            <div class="row single-achievement-section animate">
                 <div class="col col-12">
                     <img src="images/achievements/png.png" alt="" style="width: 50%; ">
                 </div>
@@ -15,7 +15,7 @@
         </div>
         
         <div class="col col-12 col-md-5 col-lg-3">
-            <div class="row single-achievement-section">
+            <div class="row single-achievement-section animate">
                 <div class="col col-12">
                     <img src="images/achievements/png.png" alt="" style="width: 50%; ">
                 </div>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="col col-12 col-md-5 col-lg-3">
-            <div class="row single-achievement-section">
+            <div class="row single-achievement-section animate">
                 <div class="col col-12">
                     <img src="images/achievements/png.png" alt="" style="width: 50%; ">
                 </div>
@@ -43,7 +43,7 @@
         </div>
 
         <div class="col col-12 col-md-5 col-lg-3">
-            <div class="row single-achievement-section">
+            <div class="row single-achievement-section animate">
                 <div class="col col-12">
                     <img src="images/achievements/png.png" alt="" style="width: 50%; ">
                 </div>

@@ -2,7 +2,7 @@
 <section class="hero-section">
 
     <div class="hero-banner">
-        <div class="row title-row">
+        <div class="row title-row animate">
             <div class="col col-10">
                 <h1>YOUR LOCAL FRIENDLY DENTIST</h1>
             </div>

@@ -1,5 +1,5 @@
 <section>
-    <div class="row intro-row">
+    <div class="row intro-row animate">
         <div class="col col-12 intro-heading">
             <h1>Dental Delight's Perspective</h1>
         </div>
