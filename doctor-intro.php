@@ -9,13 +9,13 @@
                     <h4>Meet</h4>
                 </div>
                 <div class="col col-12">
-                    <h3>Dr. RAJ KUSHWAHA</h3>
+                    <h3>Dr. PRATEEK PAL</h3>
                 </div>
                 <div class="col col-12">
-                    <h4>BDS , ABH, FJHH</h4>
+                    <h4>MDS (MUHS)</h4>
                 </div>
                 <div class="col col-12">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corporis voluptatem consequuntur pariatur culpa eius in nihil fugit fugiat eaque maxime adipisci harum molestias reprehenderit dicta sequi, rem quis ab.</p>
+                    <p>"Dr. Pal, a compassionate and skilled dentist, transforms smiles with precision and care. Committed to your dental well-being, creating confident, healthy smiles."</p>
                 </div>
                 <div class="col col-12">
                     <ul>

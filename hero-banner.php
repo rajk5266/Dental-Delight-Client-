@@ -7,12 +7,12 @@
                 <h1>YOUR LOCAL FRIENDLY DENTIST</h1>
             </div>
             <div class="col col-10">
-                <h1>Dr. RAJ KUSHWAHA</h1>
+                <h1>Dr. PRATEEK PAL</h1>
             </div>
         </div>
         <div class="row hero-banner-contact-section">
             <div class="col col-12 col-md-6 col-lg-6 hero-banner-appointment">
-                <a class="btn btn-outline" href="">Book an Appointment</a>
+                <a class="btn btn-outline" href="contactUs.php">Book an Appointment</a>
             </div>
             <div class="col col-12 col-md-6 col-lg-6 hero-banner-calling">
                 <!-- <p>Click the link below to call:</p> -->

@@ -7,22 +7,22 @@
                 </div>
                 <div class="col col-12">
                     <div class="image">
-                        <img src="images/logo.png" alt="">
+                        <img src="images/dr prateek logo.png" alt="">
                     </div>
                 </div>
                 <div class="col col-12">
                     <div class="address">
-                        <a class="btn btn-/outline" href="geo:19.2527,73.1434?q=kalyan"><i class="fa fa-map-marker" aria-hidden="true"></i>some street , kalyan maharashtra</a>
+                        <a class="btn btn-/outline" href="geo:19.2527,73.1434?q=kalyan"><i class="fa fa-map-marker footer-icon" aria-hidden="true"></i>some street , kalyan maharashtra</a>
                     </div>
                 </div>
                 <div class="col col-12">
                     <div class="phone">
-                      <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-phone" aria-hidden="true"></i>(+91)9876543210</a>
+                      <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-phone footer-icon" aria-hidden="true"></i>(+91)9876543210</a>
                     </div>
                 </div>
                 <div class="col col-12">
                     <div class="phone">
-                      <a class="btn btn-outline" href="mailto:info@example.com"><i class="fa fa-envelope" aria-hidden="true"></i>abc@gmail.com</a>
+                      <a class="btn btn-outline" href="mailto:info@example.com"><i class="fa fa-envelope footer-icon" aria-hidden="true"></i>abc@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -60,10 +60,10 @@
                         </ul>
 
                         <ul>
-                            <li><a href="">service1</a></li>
-                            <li><a href="">service1</a></li>
-                            <li><a href="">service1</a></li>
-                            <li><a href="">service1</a></li>
+                            <li><a href="">Implants</a></li>
+                            <li><a href="">IV sedation</a></li>
+                            <li><a href="">Bone Grafting</a></li>
+                            <li><a href="">Gum Re-contouring</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,16 +77,16 @@
                 </div>
                 <div class="col col-5" style="text-align: left;">
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-facebook footer-icon" aria-hidden="true"></i>Facebook</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-instagram footer-icon" aria-hidden="true"></i>Instagram</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-youtube" aria-hidden="true"></i>Youtube</a>
+                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-youtube footer-icon" aria-hidden="true"></i>Youtube</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-google" aria-hidden="true"></i>Google</a>
+                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-google footer-icon" aria-hidden="true"></i>Google</a>
                     </div>
                     
                 </div>
