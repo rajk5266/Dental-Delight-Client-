@@ -8,10 +8,11 @@ window.addEventListener("scroll", function () {
     // console.log(element)
     // console.log(`Text content of element ${index}: ${element.textContent}`);
     if (this.window.innerWidth > 992) {
-      if (this.window.scrollY > 20) {
+      if (this.window.scrollY > 60) {
         navbar.style.backgroundColor = "black";
         navbar.style.transition = "1.5s";
         navbar.style.opacity = "0.9";
+        navbar.style.boxShadow = 'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;'
         element.style.color = "white";
         // navbarDropDownMenu.style.backgroundColor = 'black'
       } else {

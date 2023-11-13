@@ -18,7 +18,7 @@
            <a class="nav-link " aria-current="page" href="index.php"><span class="nav-link-text">Home</span></a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#"><span class="nav-link-text">About</span></a>
+           <a class="nav-link" href="about.php"><span class="nav-link-text">About</span></a>
          </li>
      
          <li class="nav-item dropdown">

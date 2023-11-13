@@ -1,4 +1,35 @@
 <?php
+if (isset($_POST['send'])) {
+    // Access form data using $_POST superglobal
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+
+    // Now you can process the data as needed
+    // For example, you can send an email, store it in a database, etc.
+
+    // For demonstration purposes, let's just print the data
+    echo "Name: $name<br>";
+    echo "Email: $email<br>";
+    echo "Phone: $phone<br>";
+} else {
+    // Handle the case when the form is not submitted
+    echo "Form not submitted";
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 	session_start();
 	// if (isset($_POST['send'])) {
 	// 	echo "name: ".$_POST['name']." email: ".$_POST['email']. phone: ".$_POST['phone']. " subject: ".$_POST['subject']." message: ".$_POST['message'];
@@ -51,5 +82,4 @@
 			header("Location: Contact-Us.php");
 		}
 		//echo "Thank you for contacting us!";
-	}
-?>
+	} -->

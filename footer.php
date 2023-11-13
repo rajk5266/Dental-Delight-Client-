@@ -12,7 +12,7 @@
                 </div>
                 <div class="col col-12">
                     <div class="address">
-                        <a class="btn btn-/outline" href="geo:19.2527,73.1434?q=kalyan"><i class="fa fa-map-marker footer-icon" aria-hidden="true"></i>some street , kalyan maharashtra</a>
+                        <a class="btn btn-/outline" href="geo:19.2527,73.1434?q=kalyan"><i class="fa fa-map-marker footer-icon" aria-hidden="true"></i>F-03 FGH CHS Sanghvi Estate near KDMC B Ward Office , kalyan maharashtra</a>
                     </div>
                 </div>
                 <div class="col col-12">
@@ -94,9 +94,10 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col col-12 footer-base">
-             <p></p>
+    <div class="row footer-base-row">
+        <div class="col col-4 footer-base">
+             <p><a href="http://digiigrow.com">Design & Developed by DigiiGrow.</a></p>
         </div>
     </div>
+   
 </section>

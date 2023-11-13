@@ -40,19 +40,33 @@
 
          
 
-          <div class="contactForm">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
+
+             <div class="contactForm">
+                <form action="contact.php">
+
+                    <div class="section">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+                    </div>
+
+                    <div class="section">
+                      <label for="phone">Phone no:-</label>
+                      <input type="text" class="form-control" id="phone" placeholder="Enter phone-no:-"required>
+                    </div>
+                    
+                    <div class="section">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="email"  placeholder="Enter email" required>
+                    </div>
+                    
+                    <div class="col col-12" style="text-align: center;">
+                      <button class="btn btn-outline-success">Submit</button>
+                    </div>
+              
+                </form>
+              </div>
+          
+          
               <!-- End of contact form -->
 
             </div>
