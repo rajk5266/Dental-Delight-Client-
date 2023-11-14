@@ -13,12 +13,12 @@ window.addEventListener("scroll", function () {
         navbar.style.transition = "1.5s";
         navbar.style.opacity = "0.9";
         navbar.style.boxShadow = 'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;'
-        element.style.color = "white";
+        element.style.color = "#4D8AFF";
         // navbarDropDownMenu.style.backgroundColor = 'black'
       } else {
         navbar.style.backgroundColor = "transparent";
         navbar.style.opacity = "1";
-        element.style.color = "#003EB5";
+        element.style.color = "white";
         // navbarDropDownMenu.style.backgroundColor = 'black'
       }
     }

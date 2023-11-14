@@ -78,7 +78,8 @@ i{
 }
 .nav-item a span{
     /* color: black; */
-    color: #003EB5;
+    /* color: #003EB5; */
+    color: white;
 }
 /* .nav-item a:hover{
     color: grey;
