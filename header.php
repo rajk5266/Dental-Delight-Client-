@@ -5,7 +5,7 @@
 
 <!-- NAVBAR  -->
 <!-- <div class="container-fluid"> -->
- <nav class="navbar fixed-top navbar-expand-lg" id="NavBar">
+ <nav class="navbar fixed-top navbar-expand-lg navbar-unscrolled" id="NavBar">
    <div class="container">
      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
      <img src="images/dr prateek logo.png" alt="">

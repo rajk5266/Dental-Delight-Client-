@@ -25,14 +25,20 @@ i{
 
 
 /* NAVBAR   */
+
 .navbar {
-    background-color: transparent;
+    /* background-color: transparent; */
+    /* background: linear-gradient(to bottom, #3498db, rgba(105, 107, 108, 0));  */
     transition: background-color 0.3s;
     font-size: 22px;
-    /* padding: 15px; */
     font-family: myFont;
-    /* font-family: cursive; */
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+}
+.navbar-unscrolled{
+    background: linear-gradient(to bottom, #3498db, rgba(105, 107, 108, 0)); 
+}
+.navbar-scrolled{
+    /* background-color: black ; */
+    background: linear-gradient(to bottom, rgb(0 87 153), rgb(46 107 155 / 11%))
 }
 .navbar img{
     width: 170px;

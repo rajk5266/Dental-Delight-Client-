@@ -9,17 +9,18 @@ window.addEventListener("scroll", function () {
     // console.log(`Text content of element ${index}: ${element.textContent}`);
     if (this.window.innerWidth > 992) {
       if (this.window.scrollY > 60) {
-        navbar.style.backgroundColor = "black";
-        navbar.style.transition = "1.5s";
-        navbar.style.opacity = "0.9";
+        navbar.classList.remove('navbar-unscrolled')
+        navbar.classList.add("navbar-scrolled")
+        navbar.style.transition = "1.2s";
+        navbar.style.opacity = "1";
         navbar.style.boxShadow = 'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;'
-        element.style.color = "#4D8AFF";
+        element.style.color = "";
         // navbarDropDownMenu.style.backgroundColor = 'black'
       } else {
-        navbar.style.backgroundColor = "transparent";
+        navbar.classList.remove('navbar-scrolled');
+        navbar.classList.add('navbar-unscrolled')
         navbar.style.opacity = "1";
         element.style.color = "white";
-        // navbarDropDownMenu.style.backgroundColor = 'black'
       }
     }
     else{
