@@ -95,7 +95,7 @@
         </div>
     </div>
     <div class="row footer-base-row">
-        <div class="col col-4 footer-base">
+        <div class="col col-12 col-md-8 col-lg-4 footer-base">
              <p><a href="http://digiigrow.com">Design & Developed by DigiiGrow.</a></p>
         </div>
     </div>

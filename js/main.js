@@ -1,8 +1,10 @@
 // NAVBAR HANDLING
-window.addEventListener("scroll", function () {
-  const navbar = this.document.getElementById("NavBar");
+const navbar = this.document.getElementById("NavBar");
   const ulElements = this.document.querySelectorAll(".nav-link-text");
   const navbarDropDownMenu = this.document.querySelector(".dropdown-menu");
+window.addEventListener("scroll", function () {
+  
+  // console.log(navbarFixed)
   // console.log(navbarDropDownMenu);
   ulElements.forEach((element, index) => {
     // console.log(element)
@@ -23,16 +25,30 @@ window.addEventListener("scroll", function () {
         element.style.color = "white";
       }
     }
-    else{
+    else {
+      // navbar.classList.remove('navbar-unscrolled')
+      // navbar.style.position = 'relative'
+     
       // if (window.innerWidth < 992) {
-        navbar.style.backgroundColor = "black";
+        // navbar.classList.remove('navbar-unscrolled');
+        // navbar.classList.add('navbar-scrolled')
+
+        // navbar.style.backgroundColor = "black";
       // }
 
     }
-  });
-
-  
+  }); 
 });
+
+
+window.addEventListener('DOMContentLoaded', function() {
+  console.log('dom loaded')
+  if(this.window.innerWidth < 700){
+    navbar.classList.remove('navbar-unscrolled')
+    navbar.style.backgroundColor = 'black';
+
+  }
+})
 // NAVBAR HANDLING
 
 // SLIDER SECTION
