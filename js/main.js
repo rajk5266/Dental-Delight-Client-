@@ -35,7 +35,6 @@ window.addEventListener("scroll", function () {
 
         // navbar.style.backgroundColor = "black";
       // }
-
     }
   }); 
 });
@@ -45,7 +44,7 @@ window.addEventListener('DOMContentLoaded', function() {
   console.log('dom loaded')
   if(this.window.innerWidth < 700){
     navbar.classList.remove('navbar-unscrolled')
-    navbar.style.backgroundColor = 'black';
+    navbar.style.backgroundColor = '#3867c1';
 
   }
 })

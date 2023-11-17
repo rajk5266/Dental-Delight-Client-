@@ -38,11 +38,12 @@ i{
 }
 .navbar-scrolled{
     /* background-color: black ; */
-    background: linear-gradient(to bottom, rgb(0 87 153), rgb(46 107 155 / 11%))
+    background: linear-gradient(to bottom, rgb(0 87 153), rgb(46 107 155 / 11%));
+    box-shadow: 0px 15px 10px -15px #111; 
 }
 .navbar img{
-    width: 170px;
-    height: 129px;
+    width: 148px;
+    height: auto;
     /* margin-left: 13px; */
 }
 
@@ -115,7 +116,7 @@ i{
     background-size: 0 0.1em, 100% 0.1em;
   } 
   .dropdown-toggle::after{
-    color: #012361;
+    color: white;
   }
   .dropdown-menu{
     background-color: #070707d1;
