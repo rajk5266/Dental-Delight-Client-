@@ -7,7 +7,7 @@
                 <h1>YOUR LOCAL FRIENDLY DENTIST</h1>
             </div>
             <div class="col col-10">
-                <h1>Dr. PRATEEK PAL</h1>
+                <h1>Dr. PRATIK PAL</h1>
             </div>
         </div>
         <div class="row hero-banner-contact-section">

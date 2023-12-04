@@ -18,64 +18,92 @@
 
 
 <!-- HEADER (NAVBAR)  -->
-<?php include "header.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "header.php"; ?>
+<!-- </div> -->
 <!-- HEADER (NAVBAR)  -->
 
 <!-- HERO BANNER  -->
-<?php include "hero-banner.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "hero-banner.php"; ?>
+<!-- </div> -->
 <!-- HERO BANNER  -->
 
 
 <!-- SLIDER  -->
-<?php include "slider.php"; ?>  
+<!-- <div class="container"> -->
+    <?php include "slider.php"; ?>  
+<!-- </div> -->
 <!-- SLIDER  -->
 
 
 <!-- INTRO  -->
-<?php include "intro.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "intro.php"; ?>
+<!-- </div> -->
 <!-- INTRO  -->
 
 <!-- HR DIVIDER  -->
-<?php include "hrDivider.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "hrDivider.php"; ?>
+<!-- </div> -->
 <!-- HR DIVIDER  -->
 
 <!-- DOCTOR'S INTRO  -->
-<?php include "doctor-intro.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "doctor-intro.php"; ?>
+<!-- </div> -->
 <!-- DOCTOR'S INTRO  -->
 
 <!-- HR DIVIDER  -->
-<?php include "hrDivider.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "hrDivider.php"; ?>
+<!-- </div> -->
 <!-- HR DIVIDER  -->
 
 <!-- OUR SERVICES  -->
-<?php include "services-part.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "services-part.php"; ?>
+<!-- </div> -->
 <!-- OUR SERVICES  -->
 
 <!-- HR DIVIDER  -->
-<?php include "hrDivider.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "hrDivider.php"; ?>
+<!-- </div> -->
 <!-- HR DIVIDER  -->
 
 <!-- WHY CHOOSE US  -->
-<?php include "why-choose-us.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "why-choose-us.php"; ?>
+<!-- </div> -->
 <!-- WHY CHOOSE US  -->
 
 <!-- HR DIVIDER  -->
-<?php include "hrDivider.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "hrDivider.php"; ?>
+<!-- </div> -->
 <!-- HR DIVIDER  -->
 
 <!-- ACHIEVEMENTS  -->
-<?php include "achievements.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "achievements.php"; ?>
+<!-- </div> -->
 <!-- ACHIEVEMENTS  -->
 
 
 <!-- TESTIMONIALS  -->
-<?php include "testimonials.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "testimonials.php"; ?>
+<!-- </div> -->
 <!-- TESTIMONIALS  -->
 
 
 
 <!-- FOOTER  -->
-<?php include "footer.php"; ?>
+<!-- <div class="container"> -->
+    <?php include "footer.php"; ?>
+<!-- </div> -->
 <!-- FOOTER  -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

@@ -1,5 +1,5 @@
 <!-- <div class="container-fluid"> -->
-<section>
+<section class="sldieshow-section">
 
     <div class="slideshow-container">
         

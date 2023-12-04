@@ -6,7 +6,7 @@
 <!-- NAVBAR  -->
 <!-- <div class="container-fluid"> -->
  <nav class="navbar fixed-top navbar-expand-lg navbar-unscrolled" id="NavBar">
-   <div class="container">
+    <!-- <div class="container"> -->
      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
      <img src="images/dr prateek logo.png" alt="">
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +39,8 @@
             <a class="nav-link" href="contactUs.php"><span class="nav-link-text">Contact Us</span></a>
         </li>
        </ul>
-     </div>
-   </div>
+      </div>
+    <!-- </div> -->
  </nav>
 <!-- </div> -->
 

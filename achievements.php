@@ -48,7 +48,7 @@
                     <img src="images/achievements/google rating.png" alt="" style="width: 50%; ">
                 </div>
                 <div class="col col-12">
-                    <h2>5</h2>
+                    <h2>4.9</h2>
                 </div>
                 <div class="col col-12">
                     <p>Star Google Rating</p>
