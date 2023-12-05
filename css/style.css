@@ -42,7 +42,7 @@ i{
         margin-right: -12px !important;
     }
     .slideshow-container {
-        margin-right: -12px;
+        margin-right: -10px;
     }
 }
 
@@ -366,6 +366,7 @@ i{
 .doctor-description{
     font-family: myFont;
     padding: 10px;
+    margin-left: 30px;
 }
 .doctor-intro .doctor-qualification-area {
     margin-top: 15px;
@@ -424,20 +425,7 @@ i{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.service-card{
-/* border: 1px solid rgb(148, 147, 147); */
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-transition: 0.5s ease;
-}
-.service-card:hover{
-    transform: scale(1.05);
-}
-.service-card .card-img-top{
-    padding: 10px;
-}
-.service-card .card-body{
-    padding: 10px;
-}
+
 .single-service-parent-row .col{
     /* margin-top: 15px; */
     margin-bottom: 10px;
@@ -466,6 +454,157 @@ transition: 0.5s ease;
 }
 .single-service-description p{
     color: #368099;
+}
+.services-read-more-button{
+    text-align: center;
+}
+.services-read-more-button .btn:hover{
+  background-color: #5e5eb4;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.services-row .col{
+    flex: none;
+}
+
+
+/* serviecs page  */
+#service-one{
+    background: url(../images/services/digital-xray.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-two{
+    background: url(../images/services/teeth-cleaning.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-three{
+    background: url(../images/services/teeth-whitening.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-four{
+    background: url(../images/services/root-canal-treatment.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-five{
+    background: url(../images/services/dental\ caps.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-six{
+    background: url(../images/services/Dental-implant.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-seven{
+    background: url(../images/services/full-mouth-rehabilitation.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-eight{
+    background: url(../images/services/veneers.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-nine{
+    background: url(../images/services/children-dental-care.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-ten{
+    background: url(../images/services/geriatric-dental-care.jpg);
+    background-position: center;
+   background-size: cover;
+}
+.service-card {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 5px solid #47a2de;
+   position: relative;
+   overflow: hidden;
+   /* width: 400px; */
+   color: #fff;
+   /* background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Moscow_river_winter.jpg/640px-Moscow_river_winter.jpg); */
+   /* background-position: center; */
+   /* background-size: cover; */
+   &:after {
+      padding-top: 62%;
+      display: block;
+      content: '';
+   }
+   
+   .inner {
+    background-color: #3498db73;
+    text-align: center;
+      position: absolute;  
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      top: 100%;
+      /* padding: $sides; */
+      top: 100%;
+      transition: .4s ease all;
+   }
+   
+   .service-title {
+    padding: 5px;
+    color: rgb(0, 0, 125);
+    background-color: rgba(255, 255, 255, 0.508);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      /* Magic start */
+      /* margin-top: -$sides*2; */
+      margin-top: -10px;
+      transform: translateY(-100%);
+      /* Magic end */    
+      transition: 0.3s ease all;
+   }
+   
+   
+   &:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transform: scale(1.05);
+      .inner {
+         top: 10px;
+         
+         background: rgba(darken(#4A415F, 10%), .6);
+      }
+      
+      .service-title {
+         /* Magic start */
+         transform: translateY(0);
+         margin-top: 0;
+         /* Magic end */
+      }
+      .service-text p{
+        /* margin-top: 20px;  */
+        font-size: 16px;
+        padding: 3% 4%;
+      }
+   }
+}
+
+
+
+.service-card {
+    width: auto !important;
+    /* width: 100% !important; */
+   /* position: absolute; */
+   /* top: 50%; */
+   /* transform: translateY(-50%); */
+   /* margin: auto; */
+   /* left: 0; */
+   /* right: 0; */
+   /* box-shadow: 0 2px 50px -10px rgba(#000, 1); */
 }
 /* SERVICES  */
 
@@ -587,13 +726,17 @@ transition: 0.5s ease;
   }
 /* /////////////////////////////////////////////////////// */
 /* CONTACT FORM  */
+.contactForm .section input{
+    outline: none;
+    border: none;
+}
 
 
 /* FOOTER  */
 /* ////////////////////////////////////////////// */
 .footer-row {
     font-family: myFont;
-    background-color: #4072cd54;
+    background-color: #95acd654;
     padding: 20px;
     /* margin-right: 0 !important; */
     /* margin-left: 0 !important; */
@@ -625,6 +768,7 @@ transition: 0.5s ease;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    text-align: left;
 }
 .footer-section{
     margin-bottom: 0;

@@ -16,7 +16,7 @@
             </div>
             <div class="col col-12 col-md-6 col-lg-6 hero-banner-calling">
                 <!-- <p>Click the link below to call:</p> -->
-                <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-phone" aria-hidden="true"></i>9876543210</a>
+                <a class="btn btn-outline" href="tel:+918169723021"><i class="fa fa-phone" aria-hidden="true"></i>8169723021</a>
             </div>
         </div>
     </div>

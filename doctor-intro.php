@@ -20,8 +20,8 @@
                         <h4>Qualifications</h4>
                     </div>
                     <div class="qualifications">
-                        <h6><i class="fa fa-circle" aria-hidden="true"></i>PGDM (Hospital Management)</h6>
                         <h6><i class="fa fa-circle" aria-hidden="true"></i>MDS (Prosthetic Dentistry)</h6>
+                        <h6><i class="fa fa-circle" aria-hidden="true"></i>PGDM (Hospital Management)</h6>
                         <h6><i class="fa fa-circle" aria-hidden="true"></i>BDS</h6>
                     </div>
                     <div class="registration">
@@ -40,9 +40,8 @@
                             <!-- <li><i class="fa fa-caret-right" aria-hidden="true"></i>some points to put here</li> -->
                     </div>
                 </div>
-                <div class="col col-12">
-                  <a class="btn btn-outline-success" href=""><span>Learn More</span></a>
-                  
+                <div class="col col-12 " style="margin-top: 20px;">
+                  <a class="btn btn-outline-success" href="" ><span>Learn More</span></a>
                 </div>
             </div>
         </div>

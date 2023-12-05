@@ -34,7 +34,7 @@
                     <img src="images/achievements/10 years services.png" alt="" style="width: 50%; ">
                 </div>
                 <div class="col col-12">
-                    <h2>10</h2>
+                    <h2>08</h2>
                 </div>
                 <div class="col col-12">
                     <p>Years Of Experience</p>

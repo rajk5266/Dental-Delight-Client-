@@ -34,18 +34,6 @@
         <div class="col col-12">
             <div class="row single-service-row animate">
                 <div class="col col-12 col-lg-4 single-service-image">
-                    <img src="images/services/bone grafting.png" alt="">
-                </div>
-                <div class="col col-12 col-lg-6 single-service-description">
-                    <h1>Bone Grafting</h1>
-                    <p>Dr. Pal is experienced in bone grafting. He utilizes modern techniques to augment jaws and bone structures during extraction and /or in preparation for dental implants.</p>
-                </div>
-            </div>
-        </div>
-       
-        <div class="col col-12">
-            <div class="row single-service-row animate">
-                <div class="col col-12 col-lg-4 single-service-image">
                     <img src="images/services/gum re-contouring.png" alt="">
                 </div>
                 <div class="col col-12 col-lg-6 single-service-description">
@@ -54,38 +42,11 @@
                 </div>
             </div>
         </div>
+
+        <div class="col col-12 services-read-more-button">
+          <a class="btn btn-outline-primary" href="services.php"><span>See more Services</span></a>
+        </div>
        
-        <!-- <div class="col col-12">
-            <div class="row single-service-row animate">
-                <div class="col col-12 col-lg-4 single-service-image">
-                    <img src="images/logo.png" alt="">
-                </div>
-                <div class="col col-12 col-lg-6 single-service-description">
-                    <h1>Title</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque dicta molestias voluptatum sunt deleniti, ipsum esse rem nesciunt illum ipsam?</p>
-                </div>
-            </div>
-        </div>    -->
     </div>
 
-
-    <div class="row services-row">
-        <div class="col col-sm-10 col-md-5 col-lg-4  animate">
-            <div class="service-card mx-auto" style="width: 20rem;">
-               <img class="card-img-top" src="images/services/comprehenssive Dental implant services.png" alt="Card image cap">
-              <div class="card-body">
-                 <p class="card-text">Comprehensive dental implant services to restore your smile and improve oral health.</p>
-              </div>
-            </div>
-        </div>
-      
-        <div class="col col-sm-10 col-md-5 col-lg-4 animate">
-            <div class="service-card mx-auto" style="width: 20rem;">
-               <img class="card-img-top" src="images/services/Dental implant services.png" alt="Card image cap">
-              <div class="card-body">
-                 <p class="card-text">Our dental implant service involves a comprehensive procedure including assessment, implant placement, and restoration.</p>
-              </div>
-            </div>
-        </div>
-    </div>
 </section>

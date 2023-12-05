@@ -20,9 +20,12 @@
          <li class="nav-item">
            <a class="nav-link" href="about.php"><span class="nav-link-text">About</span></a>
          </li>
+         <li class="nav-item">
+           <a class="nav-link" href="services.php"><span class="nav-link-text">Services</span></a>
+         </li>
      
-         <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="services.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <!-- <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="services.php" role="button" data-bs-toggle="" aria-expanded="false">
              <span class="nav-link-text">Services</span>
            </a>
            <ul class="dropdown-menu">
@@ -31,7 +34,7 @@
              <li><a class="dropdown-item" href="services.php"><span class="nav-link-text">IV sedation</span></a></li>
              <li><a class="dropdown-item" href="services.php"><span class="nav-link-text">Gum Re-contouring</span></a></li>
            </ul>
-         </li>
+         </li> -->
        </ul>
 
        <ul class="navbar-nav">

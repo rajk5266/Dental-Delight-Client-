@@ -60,7 +60,7 @@
                     </div>
                     
                     <div class="col col-12" style="text-align: center;">
-                      <button class="btn btn-outline-success">Submit</button>
+                      <button class="btn btn-outline-primary">Submit</button>
                     </div>
               
                 </form>
