@@ -17,7 +17,7 @@
                 </div>
                 <div class="col col-12">
                     <div class="phone">
-                      <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-phone footer-icon" aria-hidden="true"></i>(+91)9876543210</a>
+                      <a class="btn btn-outline" href="tel:+918169723021"><i class="fa fa-phone footer-icon" aria-hidden="true"></i>(+91)8169723021</a>
                     </div>
                 </div>
                 <div class="col col-12">

@@ -223,7 +223,7 @@ i{
 }
 .hero-banner .title-row h1{
     letter-spacing: 1px;
-    color: black;
+    color: #20396b;
 }
 
 .hero-banner .btn-outline{
@@ -521,6 +521,36 @@ i{
     background-position: center;
    background-size: cover;
 }
+#service-eleven{
+    background: url(../images/services/gum-surgery.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-twelve{
+    background: url(../images/services/braces-treatment.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-thirteen{
+    background: url(../images/services/aligners.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-fourteen{
+    background: url(../images/services/wisdom-tooth-removal.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-fifteen{
+    background: url(../images/services/smile-designing.jpg);
+    background-position: center;
+   background-size: cover;
+}
+#service-sixteen{
+    background: url(../images/services/dentures.jpg);
+    background-position: center;
+   background-size: cover;
+}
 .service-card {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -559,7 +589,7 @@ i{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 3px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
       /* Magic start */
       /* margin-top: -$sides*2; */

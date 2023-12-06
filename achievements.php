@@ -31,7 +31,7 @@
         <div class="col col-12 col-md-5 col-lg-3">
             <div class="row single-achievement-section animate">
                 <div class="col col-12">
-                    <img src="images/achievements/10 years services.png" alt="" style="width: 50%; ">
+                    <img src="images/achievements/8-years-of-experience.png" alt="" style="width: 50%; ">
                 </div>
                 <div class="col col-12">
                     <h2>08</h2>

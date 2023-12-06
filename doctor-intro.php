@@ -1,7 +1,7 @@
 <section>
     <div class="row doctor-intro">
         <div class="col col-10 col-lg-4 animate">
-            <img src="images/dr-pratik-photo.jpg" alt="">
+            <img src="images/dr-pratik-new.jpg" alt="">
         </div>
         <div class="col col-10 col-lg-6 doctor-description">
             <div class="row">
@@ -34,7 +34,7 @@
                         <h4>Experiences</h4>
                     </div>
                     <div class="experiences">
-                            <h6><i class="fa fa-circle current" aria-hidden="true"></i>Consulting Prosthodontist (Kalyan)</h6>
+                            <h6><i class="fa fa-circle current" aria-hidden="true"></i>Consulting Prosthodontist in Mumbai</h6>
                             <h6><i class="fa fa-circle" aria-hidden="true"></i>Consulting Prosthodontist & General Dentist (Nagpur)</h6>
                             <h6><i class="fa fa-circle" aria-hidden="true"></i>Clinical Assistant (Kalyan)</h6>
                             <!-- <li><i class="fa fa-caret-right" aria-hidden="true"></i>some points to put here</li> -->
