@@ -82,7 +82,7 @@
         <div class="service-card mx-auto" id="service-five">
             <div class="inner">
                 <div class="service-title">
-                    <h4 class="">Dental Caps & <br> Crown-ceremic Caps</h4>
+                    <h4 class="">Dental Caps & <br> Crown-ceramic Caps</h4>
                 </div>
                 <div class="service-text">
                   <p>"Enhance your smile with durable dental caps and ceramic crowns, combining aesthetics and strength seamlessly."</p>

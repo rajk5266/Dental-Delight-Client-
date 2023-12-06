@@ -1,23 +1,57 @@
 .about-us-section{
-    margin-top: 20px;
+    margin-top: 180px;
+    color: rgb(43 43 57 / 51%);
 }
 
 .about-us-section .row{
   display: flex;
   justify-content: center;
   text-align: center;
-  /* margin-top: 20px; */
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .about-us-row{
     margin-top: 150px;
     
 }
+.about-us-section .about-doctor .about-doctor-title{
+    text-align: center;
+}
+.about-doctor .doctor-bio{
+    margin-top: 20px;
+}
+
 .about-us-second-row{
     background: url('../images/about-us.png');
     /* background: no-repeat; */
     /* background-size: cover; */
     width: 100%;
-    height: 500px;
+    height: 662px;
+}
+@media (min-width: 520px){
+    .about-us-second-row {
+        height: 450px;
+    }
+}
+
+.our-consultants-container .title{
+text-align: center;
+}
+.consultants-row{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.consultants-row .col{
+    /* border: 1px solid blue; */
+    padding: 20px 5px;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.consultants-row .doctors-lists ul li{
+    list-style: none;
+    padding: 10px 3px;
+    font-size: 18px;
 }
