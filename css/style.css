@@ -19,7 +19,7 @@ h1, h2, h3, h4, p{
     font-family: myFont;
 }
 h1, h2, h3{
-    color: #3F6DC5;
+    color: #65b1e4;
 }
 p{
     font-size: 20px;
@@ -763,11 +763,36 @@ i{
 }
 
 
+
+
+/* MISSION AND VISION  */
+.mission-vision  .col{
+padding: 15px 20px;
+}
+.mission-vision .col .title{
+    text-align: center;
+    color: rgba(50, 50, 69, 0.881);
+}
+.mission-vision .card{
+    margin: 10px 70px;
+    padding: 20px;
+    background-color: #52a8e159;
+}
+.mission-vision ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: midnightblue;
+}
+/* MISSION AND VISION  */
+
 /* FOOTER  */
 /* ////////////////////////////////////////////// */
 .footer-row {
     font-family: myFont;
-    background-color: #95acd654;
+    background-color: #94c9ec6e;
     padding: 20px;
     /* margin-right: 0 !important; */
     /* margin-left: 0 !important; */
@@ -827,7 +852,7 @@ i{
   }  
 
   .footer-base-row{
-    background-color: #4072cd54;
+    background-color: #94c9ec6e;
     display: flex;
     justify-content: right;
     /* margin-right: 0 !important; */

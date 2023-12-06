@@ -20,14 +20,17 @@
 <!-- HEADER  -->
     
 
-<div class="row" style="margin-top: 160px; ">
+<div class="row" style="margin-top: 120px; ">
 <hr>
 </div>
 
 <div class="container">
 
+    <div class="title" style="text-align: center;">
+        <h1>Our Services</h1>
+    </div>
     
-    <div class="row services-row" style="margin-top: 160px; ">
+    <div class="row services-row" >
         
     <div class="col col-sm-10 col-md-5 col-lg-4  animate">
         <div class="service-card mx-auto" id="service-one">

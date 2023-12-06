@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="row about-us-row">
+    <div class="row about-us-row" style="margin-top: 40px;">
         <div class="col col-10">
             <h1>Dr. Pal's Dental Delight</h1>
         </div>
@@ -65,6 +65,8 @@
         </div>
     </div>
 </section>
+
+<!-- OUR CONSULTANTS  -->
 
 <section>
     <div class="our-consultants-container">
@@ -96,6 +98,66 @@
         </div>
     </div>
 </section>
+
+<!-- OUR LAB PARTNERS  -->
+<section>
+    <div class="lab-partners">
+
+    <div class="title">
+        <h1>Our Lab Partners</h1>
+    </div>
+        <div class="row">
+            <div class="col col-12 col-lg-4">
+                <div class="card">
+                    <!-- <img src="images/lab-partners/grroves.jpeg" alt=""> -->
+                    <h3>Grooves Dental</h3>
+                    <h3>lab</h3>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p>Mumbai</p>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-4">
+                <div class="card">
+                    <!-- <img src="images/lab-partners/dentilligent.png" alt=""> -->
+                    <h3>Dentillgent</h3>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p>Mumbai</p>
+                </div>
+
+            </div>
+            <div class="col col-12 col-lg-4">
+                <div class="card">
+                    <!-- <img src="images/lab-partners/dentilligent.png" alt=""> -->
+                    <h3>Swami Samarth</h3>
+                    <h3>Dental Lab</h3>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p>Mumbai</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- OUR TEAM  -->
+<section>
+    <div class="team">
+        <div class="title">
+            <h1>Our Team</h1>
+        </div>
+        <div class="row">
+            <div class="col col-12 col-md-4">
+                <h3>Assitant - Sonal Kadam</h3>
+            </div>
+            <div class="col col-12 col-md-4">
+                <h3>Assitant - Sahrmila Mhaske</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- OUR TEAM  -->
+
 <!-- MAIN CONTENT  -->
 
 

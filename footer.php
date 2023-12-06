@@ -22,7 +22,7 @@
                 </div>
                 <div class="col col-12">
                     <div class="phone">
-                      <a class="btn btn-outline" href="mailto:info@example.com"><i class="fa fa-envelope footer-icon" aria-hidden="true"></i>abc@gmail.com</a>
+                      <a class="btn btn-outline" href="mailto:dentaldelight4@gmail.com"><i class="fa fa-envelope footer-icon" aria-hidden="true"></i>dentaldelight4@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -34,12 +34,12 @@
                     <h4>Office Hours</h4>
                 </div>
                 <div class="col col-12">
-                    <p>Mon 9:00 am - 5:00 pm</p>
-                    <p>Tue 9:00 am - 5:00 pm</p>
-                    <p>Wed 9:00 am - 5:00 pm</p>
-                    <p>Thu 9:00 am - 5:00 pm</p>
-                    <p>Fri 9:00 am - 5:00 pm</p>
-                    <p>Sat 9:00 am - 5:00 pm</p>
+                    <p>Mon 10:00 am - 10:00 pm</p>
+                    <p>Tue 10:00 am - 10:00 pm</p>
+                    <p>Wed 10:00 am - 10:00 pm</p>
+                    <p>Thu 10:00 am - 10:00 pm</p>
+                    <p>Fri 10:00 am - 10:00 pm</p>
+                    <p>Sat 10:00 am - 10:00 pm</p>
                 </div>
             </div>
         </div>
@@ -75,12 +75,12 @@
                 <div class="col col-12">
                     <h4>Social Media</h4>
                 </div>
-                <div class="col col-5" style="text-align: left;">
+                <div class="col col-8" style="text-align: left;">
                     <div>
                         <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-facebook footer-icon" aria-hidden="true"></i>Facebook</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-instagram footer-icon" aria-hidden="true"></i>Instagram</a>
+                        <a class="btn btn-outline" href="https://www.instagram.com/dentodelight/"><i class="fa fa-instagram footer-icon" aria-hidden="true"></i>Instagram</a>
                     </div>
                     <div>
                         <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-youtube footer-icon" aria-hidden="true"></i>Youtube</a>
