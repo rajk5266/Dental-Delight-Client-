@@ -40,6 +40,7 @@
                     <p>Thursday - 10am to 10pm</p>
                     <p>Friday - 10am to 10pm</p>
                     <p>Saturday - 10am to 10pm</p>
+                    <p>Sunday - 10am to 10pm</p>
                     <!-- <p>Timings -  10am to 10pm </p> -->
                 </div>
             </div>
@@ -77,16 +78,16 @@
                 </div>
                 <div class="col col-8" style="text-align: left;">
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-facebook footer-icon" aria-hidden="true"></i>Facebook</a>
+                        <a class="btn btn-outline" href="https://www.facebook.com/dentaldelight4"><i class="fa fa-facebook footer-icon" aria-hidden="true"></i>Facebook</a>
                     </div>
                     <div>
                         <a class="btn btn-outline" href="https://www.instagram.com/dentodelight/"><i class="fa fa-instagram footer-icon" aria-hidden="true"></i>Instagram</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919873210"><i class="fa fa-youtube footer-icon" aria-hidden="true"></i>Youtube</a>
+                        <a class="btn btn-outline" href="http://www.linkedin.com/in/dr-pratik-pal-b3b890122"><i class="fa fa-linkedin footer-icon" aria-hidden="true"></i>Linked In</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+9198763210"><i class="fa fa-google footer-icon" aria-hidden="true"></i>Google</a>
+                        <a class="btn btn-outline" href="https://g.co/kgs/RMDTcS"><i class="fa fa-google footer-icon" aria-hidden="true"></i>Google Business</a>
                     </div>
                     
                 </div>
