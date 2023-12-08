@@ -3,7 +3,7 @@
         <div class="col col-10 col-md-5 col-lg-3 clinic-info">
             <div class="row">
                 <div class="col col-12">
-                    <h4>Dental Delight</h4>
+                    <h4 class="heading">Dental Delight</h4>
                 </div>
                 <div class="col col-12">
                     <div class="image">
@@ -31,15 +31,16 @@
         <div class="col col-10 col-md-5 col-lg-3 timings">
             <div class="row">
                 <div class="col col-12">
-                    <h4>Office Hours</h4>
+                    <h4 class="heading">Office Hours</h4>
                 </div>
-                <div class="col col-12">
-                    <p>Mon 10:00 am - 10:00 pm</p>
-                    <p>Tue 10:00 am - 10:00 pm</p>
-                    <p>Wed 10:00 am - 10:00 pm</p>
-                    <p>Thu 10:00 am - 10:00 pm</p>
-                    <p>Fri 10:00 am - 10:00 pm</p>
-                    <p>Sat 10:00 am - 10:00 pm</p>
+                <div class="col col-12 times">
+                    <p>Monday - 10am to 10pm</p>
+                    <p>Tuesday - 10am to 10pm</p>
+                    <p>Wednesday - 10am to 10pm</p>
+                    <p>Thursday - 10am to 10pm</p>
+                    <p>Friday - 10am to 10pm</p>
+                    <p>Saturday - 10am to 10pm</p>
+                    <!-- <p>Timings -  10am to 10pm </p> -->
                 </div>
             </div>
         </div>
@@ -47,33 +48,32 @@
         <div class="col col-10 col-md-5 col-lg-3 quick-links">
             <div class="row">
                 <div class="col col-12">
-                    <h4>Quick Links</h4>
+                    <h4 class="heading">Quick Links</h4>
                 </div>
                 <div class="col col-12">
                     <div class="d-flex">
 
                         <ul>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="mission.php">Mission</a></li>
                         </ul>
 
                         <ul>
-                            <li><a href="">Implants</a></li>
-                            <li><a href="">IV sedation</a></li>
-                            <li><a href="">Bone Grafting</a></li>
-                            <li><a href="">Gum Re-contouring</a></li>
+                            <li><a href="services.php">Implants</a></li>
+                            <li><a href="services.php">Aligners</a></li>
+                            <li><a href="services.php">Veneers</a></li>
+                            <li><a href="services.php">Dentures</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col col-10 col-md-5 col-lg-3 social-media-links">
+            <!--  -->
             <div class="row">
                 <div class="col col-12">
-                    <h4>Social Media</h4>
+                    <h4 class="heading">Social Media Links</h4>
                 </div>
                 <div class="col col-8" style="text-align: left;">
                     <div>
@@ -83,15 +83,37 @@
                         <a class="btn btn-outline" href="https://www.instagram.com/dentodelight/"><i class="fa fa-instagram footer-icon" aria-hidden="true"></i>Instagram</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-youtube footer-icon" aria-hidden="true"></i>Youtube</a>
+                        <a class="btn btn-outline" href="tel:+919873210"><i class="fa fa-youtube footer-icon" aria-hidden="true"></i>Youtube</a>
                     </div>
                     <div>
-                        <a class="btn btn-outline" href="tel:+919876543210"><i class="fa fa-google footer-icon" aria-hidden="true"></i>Google</a>
+                        <a class="btn btn-outline" href="tel:+9198763210"><i class="fa fa-google footer-icon" aria-hidden="true"></i>Google</a>
                     </div>
                     
                 </div>
 
             </div>
+            <!--  -->
+        </div>
+
+        <div class="col col-10 col-md-5 col-lg-3 iso" style="text-align: center;">
+
+            <!-- <div class="col col-12 iso"> -->
+                <div class="title">
+                    <p class="heading">ISO - Certified</p>
+                </div>
+                <div class="certificate">
+                    <img id="myImg" src="images/certificate.jpg" alt="Snow" style="width:100%;max-width:150px">
+                    <p class="text" id="view-cert" ><i class="fa fa-eye" aria-hidden="true"></i></p>
+                </div>
+                       <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01" src="images/certificate.jpg">
+                  
+                  <div id="caption"></div>
+                </div>
+            <!-- </div> -->
+            
         </div>
     </div>
     <div class="row footer-base-row">

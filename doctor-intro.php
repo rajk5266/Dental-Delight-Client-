@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="col col-12 " style="margin-top: 20px;">
-                  <a class="btn btn-outline-success" href="about.php" ><span>Learn More</span></a>
+                  <a class="btn btn-outline-success" href="about.php" ><span>Read More</span></a>
                 </div>
             </div>
         </div>

@@ -5,6 +5,13 @@
 body{
     margin: 0;
 }
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.fixed-top{
+    /* right: 2.4%; */
+}
 .row{
     /* width: 100%; */
 }
@@ -12,7 +19,7 @@ section{
     margin-top: 60px;
     margin-bottom: 60px;
     /* margin-right: -12px; */
-    right: 0;
+    /* right: 0; */
     
 }
 h1, h2, h3, h4, p{
@@ -37,12 +44,12 @@ i{
     }
 }
 @media (min-width: 800px){
-    .hero-section, .navbar{
-        margin-left: 0px !important;
-        margin-right: -12px !important;
+    .navbar{
+        /* margin-left: 0px !important; */
+        /* margin-right: -11px !important; */
     }
     .slideshow-container {
-        margin-right: -10px;
+        /* margin-right: -10px; */
     }
 }
 
@@ -214,7 +221,7 @@ i{
     color: black;
 }
 .hero-banner .title-row{
-    background-color: #8b8bbd3b;
+    background-color: #f4f4ff59;
     /* opacity: 0.9; */
     padding: 15px;
     border-radius: 10px;
@@ -222,6 +229,7 @@ i{
 
 }
 .hero-banner .title-row h1{
+    /* font-family: cursive; */
     letter-spacing: 1px;
     color: #20396b;
 }
@@ -271,8 +279,8 @@ i{
     /* margin-top: 30px; */
     /* margin-bottom: 30px; */
     /* max-width: 1000px; */
-    margin-left: auto;
-    /* margin-right: auto; */
+    /* margin-left: auto; */
+    /* margin-right: -31px; */
     /* max-width: fit-content; */
     position: relative;
    
@@ -766,26 +774,39 @@ i{
 
 
 /* MISSION AND VISION  */
-.mission-vision  .col{
+.mission {
+    display: flex;
+    justify-content: center;
+}
+.mission  .col{
 padding: 15px 20px;
 }
-.mission-vision .col .title{
+.mission .col .title{
     text-align: center;
     color: rgba(50, 50, 69, 0.881);
 }
-.mission-vision .card{
-    margin: 10px 70px;
+.mission .card{
+    margin: 10px 20px;
     padding: 20px;
-    background-color: #52a8e159;
+    border: none;
+    /* background-color: #52a8e159; */
 }
-.mission-vision ul li{
+.mission .card h4{
+    font-size: 50px;
+    color: #45a0de;
+}
+.mission .card p{
+    font-size: 30px;
+    color: grey;
+}
+/* .mission ul li{
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 18px;
     color: midnightblue;
-}
+} */
 /* MISSION AND VISION  */
 
 /* FOOTER  */
@@ -797,9 +818,32 @@ padding: 15px 20px;
     /* margin-right: 0 !important; */
     /* margin-left: 0 !important; */
 }
+.footer-row h4, .footer-row a{
+    color: #222270b5;
+}
+.footer-row .clinic-info {
+    color: black;
+}
 .footer-row img{
     width: 150px;
     height: auto;
+}
+.footer-row .timings p{
+    font-size: 16px;
+    color: #3b3b59b0;
+}
+.footer-row .clinic-info a{
+    color: #3b3b59b0;
+}
+.footer-row .quick-links  a{
+    color: #3b3b59b0;
+}
+.footer-row .timings .times{
+    margin-top: 20px;
+    
+}
+.footer-row .heading{
+    color: #181861a8;
 }
 
 .clinic-info .row,
@@ -817,7 +861,7 @@ padding: 15px 20px;
 }
 .quick-links li a{
     text-decoration: none;
-    color: #164aac;
+    /* color: #222270b5; */
     font-size: 18px;
 }
 .quick-links ul{
@@ -830,7 +874,7 @@ padding: 15px 20px;
     margin-bottom: 0;
 }
 .footer-icon{
-    color: #2c3fc0;
+    color: #222270b5;
 }
 .footer-row .clinic-info, .footer-row .timings, .footer-row .quick-links, .footer-row .social-media-links{
     margin-top: 20px;
@@ -868,6 +912,141 @@ padding: 15px 20px;
     text-decoration: none;
     letter-spacing: 2px;
 }
+footer .iso{
+    text-align: center;
+}
+.footer-row .iso .title {
+    margin-top: 18px;
+}
+
+/* .blur-container {
+    position: relative;
+    width: 200px;
+    margin: 15px auto 0px auto;
+    overflow: hidden;
+  }
+  .blur-container img{
+    filter: blur(1px); 
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+  }
+  .overlay-text button{
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+  } */
+.certificate{
+    position: relative;
+}
+.certificate .text{
+    position: absolute;
+    width: 50%;
+    /* font-size: 20px; */
+    display: inline-flex;
+    left: 40%;
+    /* top: 38%; */
+}
+.certificate .text span{
+    /* font-size: 16px; */
+   
+}
+.certificate .text i{
+    /* margin: auto; */
+}
+.certificate .text i::before{
+    font-size: 40px;
+    color: black;
+    opacity: 0.6;
+}
+.certificate .text :hover::before{
+    color: #20396b;
+    opacity: 1;
+}
+.certificate .text:hover{
+    color: blue;
+    cursor: pointer;
+}
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    filter: blur(1px); 
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
 /* ////////////////////////////////////////////// */
 /* FOOTER  */
 

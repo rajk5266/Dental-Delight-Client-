@@ -28,20 +28,28 @@
         <div class="col col-10 about-doctor-title">
             <h1>About Doctor</h1>
         </div>
-        <div class="col col-10 doctor-bio">
+        <div class="col col-6 doctor-bio">
             <div class="outline">
                 <div class="content">
-                    <p>Dr. PAL is pursuing  P.hd in prosthetic dentistry from government dental college and hospital,sambhajinagar.</p>
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>Dr. PRATIK PAL is pursuing  P.hd in prosthetic dentistry from government dental college and hospital,sambhajinagar.</p>
                 </div>
                 <div class="content">
-                    <p>Dr pal is member of ITI-International team for  implantology.</p>
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>Dr. PAL has done his MDS in 'PROSTHETIC DENTISTRY' from SDK Dental college, Nagpur.</p>
                 </div>
                 <div class="content">
-                    <p>Member of IDA (Indian Dental Association) kyn-ulhs branch.</p>
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>Dr. PAL has completed his BDS from YDCH Ratnagiri</p>
                 </div>
                 <div class="content">
-                    <p>Dr.pal have five publications in international and national journals.Dr.Pal has developed protype of motorized stretcher in medical device hathkon</p>
-                     
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>Dr PAL is member of ITI-International team for  implantology.</p>
+                </div>
+                <div class="content">
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>Member of IDA (Indian Dental Association) kyn-ulhs branch.</p>
+                </div>
+                <div class="content">
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>Dr.PAL have five publications in international and national journals.Dr.Pal has developed protype of motorized stretcher in medical device hathkon</p>
+                </div>
+                <div class="content">
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>He is full Dedicated practitioner with special interest in Implant and Full Mouth Rehabilitation.</p>
                 </div>
 
             </div>
@@ -89,7 +97,7 @@
                 <div class="doctors-lists">
                     <ul>
                         <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>DR.FAIZAN ANSARI MDS (PEDODONTIST) </li>
-                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>DR.ATUL SHELARE BDS (SPECIAL INTERST IN ENDONTICS, USING MICROSCOPE SINE 10YRS) </li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>DR.ATUL SHELARE BDS (SPECIAL INTEREST IN ENDONTICS, USING MICROSCOPE SINE 10YRS) </li>
                         <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>DR.MANSI TONDLIKAR MDS   (CONSERVATIVE AND  ENDONTICS/ROOT CANAL SPECIALIST) </li>
                         <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>DR.SWATI JADHAV  MDS (ORAL & MAXILLOFACIAL SURGEON)</li>
                     </ul>
@@ -146,11 +154,11 @@
         <div class="title">
             <h1>Our Team</h1>
         </div>
-        <div class="row">
-            <div class="col col-12 col-md-4">
+        <div class="row team-member-row">
+            <div class="col col-12 col-md-4 team-member">
                 <h3>Assitant - Sonal Kadam</h3>
             </div>
-            <div class="col col-12 col-md-4">
+            <div class="col col-12 col-md-4 team-member">
                 <h3>Assitant - Sahrmila Mhaske</h3>
             </div>
         </div>
